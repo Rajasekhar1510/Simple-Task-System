@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 167006316}
   - component: {fileID: 167006315}
   m_Layer: 5
-  m_Name: Objective List
+  m_Name: ObjectiveList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1805,7 +1805,7 @@ GameObject:
   - component: {fileID: 1445869588}
   - component: {fileID: 1445869587}
   m_Layer: 5
-  m_Name: Task Name
+  m_Name: TaskName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
