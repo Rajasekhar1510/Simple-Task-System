@@ -25,7 +25,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-       if (dialogueData == null || !isDialogueActive) return;
+       if (dialogueData == null /*|| !isDialogueActive*/) return;
 
        if (isDialogueActive)
        {
