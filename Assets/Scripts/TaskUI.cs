@@ -9,17 +9,17 @@ public class TaskUI : MonoBehaviour
     public GameObject taskEntryPrefab;
     public GameObject objectiveTextPrefab;
 
-    public Tasks testTask;
+  /*  public Tasks testTask;
     public int testTaskAmount;
-    private List<TaskProgress> testTasksList = new();
+    private List<TaskProgress> testTasksList = new();*/
 
 
     void Start()
     {
-        for (int i = 0; i < testTaskAmount; i++)
+       /* for (int i = 0; i < testTaskAmount; i++)
         {
             testTasksList.Add(new TaskProgress(testTask));
-        }
+        }*/
 
         UpdateTaskUI();
     }
@@ -31,7 +31,7 @@ public class TaskUI : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        foreach (var task in testTasksList)
+        foreach (var task in QuestController.Instance.activeQuests)
         {
             GameObject entry = Instantiate(taskEntryPrefab, taskListContent);
             TMP_Text taskNameText = entry.transform.Find("TaskName").GetComponent<TMP_Text>();

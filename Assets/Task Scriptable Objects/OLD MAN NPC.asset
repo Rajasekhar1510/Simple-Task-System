@@ -17,11 +17,13 @@ MonoBehaviour:
   - Hey son
   - I think i forgot to take my pills
   - Will you help
-  - thank you
+  - thank you, pls bring them
   - ok
   - i'll wait
-  autoProgressLines: 01010000
-  endDialogueLines: 000000010001
+  - i'll wait till you get the medicines
+  - thank you for the medicines
+  autoProgressLines: 0101000001
+  endDialogueLines: 0000000100010101
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   choices:
@@ -30,3 +32,7 @@ MonoBehaviour:
     - Yes
     - Later
     nextDialogueIndexes: 0300000004000000
+    givesQuest: 0100
+  questInProgressIndex: 6
+  questCompletedIndex: 7
+  task: {fileID: 11400000, guid: ec498fb62bbcfb241ba9d9ff9b08ea08, type: 2}
