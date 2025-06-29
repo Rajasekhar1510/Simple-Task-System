@@ -16,7 +16,7 @@ MonoBehaviour:
   taskName: Collect Medicine
   taskDescription: you will collect the medicine
   objectives:
-  - objectiveID: 0
+  - objectiveID: 1
     descripton: collect Medicins
     type: 0
     requiredAmount: 1
